@@ -1,0 +1,20 @@
+{
+  "name": "snake-js",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/compiler-sfc": "^3.0.4",
+    "sass": "^1.84.0",
+    "sass-loader": "^16.0.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}

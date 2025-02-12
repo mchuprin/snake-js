@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "src/"
+//    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+//    "./src/**/*.spec.ts"
+  ]
+}

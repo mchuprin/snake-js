@@ -1,0 +1,44 @@
+@use "./normalize/normalize.scss" as *;
+@use "./common/variables.scss" as *;
+@use "./common/fonts.scss" as *;
+
+*,
+h1 {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  //color: $Title;
+  font-size: 70px;
+}
+
+h2 {
+  color: $subtitle;
+  font-size: 35px;
+}
+
+.button {
+  margin-top: 10px;
+  border: dashed $border 2px;
+  background: $filling;
+  padding: 15px 30px 10px;
+  text-decoration: none;
+  color: $text;
+  border-radius: 20px;
+  font-size: 17px;
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+body {
+  background: $background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
