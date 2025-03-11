@@ -10,16 +10,14 @@
 </template>
 
 <script lang="ts">
-import {defineComponent} from "vue";
-
-export default defineComponent({
+export default {
   name: 'home',
   setup() {
 
 
     return {}
   }
-})
+}
 </script>
 
 <style lang="scss">

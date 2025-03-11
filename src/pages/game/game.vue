@@ -5,13 +5,12 @@
 </template>
 
 <script lang="ts">
-import {defineComponent} from "vue";
 import {Field} from "@/widgets/field";
 
-export default defineComponent({
+export default {
   name: 'game',
   components: { Field },
-})
+}
 </script>
 
 <style lang="scss">
