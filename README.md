@@ -16,4 +16,7 @@ Planned features:
 
 -  Score's table
 
+- Improvements: 
+    1. Husky/lint-stage
+
 
